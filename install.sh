@@ -10,7 +10,6 @@ ln -sf $HOME/.dotfiles/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/.dotfiles/zsh/zlogin $HOME/.zlogin
 ln -sf $HOME/.dotfiles/zsh/zlogout $HOME/.zlogout
 ln -sf $HOME/.dotfiles/urxvt/Xresources $HOME/.Xresources
-ln -sf $HOME/.dotfiles/nvim/init.vim 
 
 mv $HOME/.dotfiles/nvim/init.vim $XDG_CONFIG_HOME/nvim/init.vim
 
