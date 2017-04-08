@@ -1,5 +1,9 @@
 #!/bin/sh
 
+sudo pacman -S --force --noconfirm git git-core ctags ncurses curl wget zip 7zip p7zip unrar vim rxvt-unicode zsh
+
+chsh $USER -s /bin/zsh
+
 cp -R $HOME/MyDotfiles/ $HOME/.dotfiles/
 
 ln -sf $HOME/.dotfiles/zsh/zshrc $HOME/.zshrc
