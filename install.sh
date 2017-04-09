@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S --force --noconfirm git git-core ctags ncurses curl wget zip p7zip unrar vim neovim rxvt-unicode zsh
+sudo pacman -S --force --noconfirm git git-core vim rxvt-unicode zsh
 
 chsh $USER -s /bin/zsh
 
