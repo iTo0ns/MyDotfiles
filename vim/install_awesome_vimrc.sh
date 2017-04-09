@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-cd ~/.vim_runtime
+cd ~/.dotfiles/vim/
 
 echo 'set runtimepath+=~/.dotfiles/vim
 source ~/.dotfiles/vim/vimrcs/basic.vim
