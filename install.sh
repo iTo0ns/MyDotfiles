@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S --force --noconfirm git git-core vim rxvt-unicode zsh
+sudo pacman -S --force --noconfirm zsh rxvt-unicode vim atom
 
 chsh $USER -s /bin/zsh
 
@@ -12,6 +12,5 @@ ln -sf $HOME/.dotfiles/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/.dotfiles/zsh/zlogin $HOME/.zlogin
 ln -sf $HOME/.dotfiles/zsh/zlogout $HOME/.zlogout
 ln -sf $HOME/.dotfiles/urxvt/Xresources $HOME/.Xresources
-
-
-
+ln -sf $HOME/.dotfiles/atom $HOME/.atom
+exit
